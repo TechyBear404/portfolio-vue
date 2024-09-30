@@ -1,0 +1,32 @@
+
+{
+    "personalData": {
+        "name": "Sébastien Ector",
+        "title": "Développeur Web Junior",
+        "address": "Waterloo, Belgique",
+        "email": "ector.seb@gmail.com",
+        "phone": "+32 478 07 18 64",
+        "website": "www.techybear.eu"
+    },
+    "languages": [
+        {
+            "name": "Francais",
+            "level": "maternel"
+        },
+        {
+            "name": "Anglais",
+            "level": "courant"
+        }
+    ],
+    "skills": [
+        "HTML, CSS, JavaScript",
+        "Vue.js, React, Next.js, Astro",
+        "Base de données",
+        "Excellentes compétences en résolution de problèmes et en dépannage"
+    ],
+    "interests": [
+        "Technologie",
+        "Jeux vidéos",
+        "Lecture"
+    ]
+}
