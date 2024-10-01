@@ -1,33 +1,101 @@
-
 {
-    "personalData": {
-        "firstName": "Sébastien",
-        "lastName": "Ector",
-        "title": "Développeur Web Junior",
-        "address": "Waterloo, Belgique",
-        "email": "ector.seb@gmail.com",
-        "phone": "+32 478 07 18 64",
-        "website": "www.techybear.eu"
+  "personalData": {
+    "firstName": "Sébastien",
+    "lastName": "Ector",
+    "title": "Développeur Web Junior",
+    "address": "Waterloo, Belgique",
+    "email": "ector.seb@gmail.com",
+    "phone": "+32 478 07 18 64",
+    "website": "www.techybear.eu"
+  },
+  "languages": [
+    {
+      "name": "Francais",
+      "level": "maternel"
     },
-    "languages": [
-        {
-            "name": "Francais",
-            "level": "maternel"
-        },
-        {
-            "name": "Anglais",
-            "level": "courant"
-        }
-    ],
-    "skills": [
-        "HTML, CSS, JavaScript",
-        "Vue.js, React, Next.js, Astro",
-        "Base de données",
-        "Excellentes compétences en résolution de problèmes et en dépannage"
-    ],
-    "interests": [
-        "Technologie",
-        "Jeux vidéos",
-        "Lecture"
-    ]
+    {
+      "name": "Anglais",
+      "level": "courant"
+    }
+  ],
+  "skills": [
+    "HTML, CSS, JavaScript",
+    "Vue.js, React, Next.js, Astro",
+    "Base de données",
+    "Excellentes compétences en résolution de problèmes et en dépannage"
+  ],
+  "interests": ["Technologie", "Jeux vidéos", "Lecture"],
+  "experiences": [
+    {
+      "title": "Helpdesk informatique",
+      "company": "Freelance",
+      "location": "Waterloo, Belgique",
+      "startDate": "2005",
+      "endDate": "2025",
+      "description": "Installation, dépannage et cours / mise à niveau"
+    },
+    {
+      "title": "Barman",
+      "company": "La Terrasse",
+      "location": "Waterloo, Belgique",
+      "startDate": "2018",
+      "endDate": "2021",
+      "description": "Barman et aide à la gestion de l'établissement familial"
+    },
+    {
+      "title": "Barman",
+      "company": "Le Napoléon",
+      "location": "Braine l'Alleud, Belgique",
+      "startDate": "2012",
+      "endDate": "2017",
+      "description": "Barman et aide à la gestion de l'établissement familial"
+    },
+    {
+      "title": "Barman",
+      "company": "Café Chez Mimi",
+      "location": "Waterloo, Belgique",
+      "startDate": "2008",
+      "endDate": "2012"
+    },
+    {
+      "title": "Technicien / installateur",
+      "company": "LCDiffusion",
+      "location": "Anderlecht, Belgique",
+      "startDate": "2005",
+      "endDate": "2010",
+      "description": "Installation, dépannage et explication TV-Hifi-Electro"
+    },
+    {
+      "title": "Responsable de salle",
+      "company": "Chi-Chi's",
+      "location": "Mons, Belgique",
+      "startDate": "2002",
+      "endDate": "2004",
+      "description": "Responsable de salle dans un restaurant à thème"
+    },
+    {
+      "title": "Responsable de salle",
+      "company": "Freelance",
+      "location": "Waterloo, Belgique",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Développement de sites web pour des clients locaux."
+    }
+  ],
+  "formations": [
+    {
+      "title": "BES Web Developer",
+      "school": "IFOSUP",
+      "location": "Wavre, Belgique",
+      "startDate": "2023",
+      "endDate": "2025"
+    },
+    {
+      "title": "BES Web Designer",
+      "school": "IFOSUP",
+      "location": "Wavre, Belgique",
+      "startDate": "2023",
+      "endDate": "2025"
+    }
+  ]
 }

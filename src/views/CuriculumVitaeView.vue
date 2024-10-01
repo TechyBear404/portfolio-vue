@@ -1,19 +1,23 @@
 <template>
-    <Main class="lg:flex min-h-screen justify-center w-full p-4 ">
-        <div class="flex w-[1024px] shadow-xl rounded-md overflow-hidden h-full">
-            <div class="w-[300px] flex-none">
-                <LeftPanelComponent :data="cvData" />
-            </div>
-            <div class="w-[724px]">
-                <RightPanelComponent :data="cvData" />
-            </div>
-        </div>
-    </Main>
+  <Main class="lg:flex min-h-screen justify-center w-full p-4 bg-slate-200">
+    <div
+      class="grid grid-cols-3 shadow-xl rounded-md overflow-hidden h-full max-w-4xl"
+    >
+      <div class="">
+        <LeftPanelComponent :data="cvData" />
+      </div>
+      <div class="col-span-2">
+        <RightPanelComponent :data="cvData" />
+      </div>
+    </div>
+  </Main>
 </template>
 
 <script setup lang="ts">
-import LeftPanelComponent from '@/components/cv/LeftPanelComponent.vue';
-import RightPanelComponent from '@/components/cv/RightPanelComponent.vue';
-import cvData from '@/data/cv.json';
+import LeftPanelComponent from "@/components/cv/LeftPanelComponent.vue";
+import RightPanelComponent from "@/components/cv/RightPanelComponent.vue";
+import type CvData from "@/types/CvData";
+import jsonData from "@/data/cv.json";
 
+const cvData = jsonData as CvData;
 </script>
