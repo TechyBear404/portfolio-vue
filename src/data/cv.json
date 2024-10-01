@@ -1,7 +1,8 @@
 
 {
     "personalData": {
-        "name": "Sébastien Ector",
+        "firstName": "Sébastien",
+        "lastName": "Ector",
         "title": "Développeur Web Junior",
         "address": "Waterloo, Belgique",
         "email": "ector.seb@gmail.com",

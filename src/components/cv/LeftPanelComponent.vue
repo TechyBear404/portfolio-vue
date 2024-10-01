@@ -6,7 +6,6 @@
         <div>
             <h1>Coordonnées</h1>
             <ul>
-                <li>{{ data.personalData.name }}</li>
                 <li>{{ data.personalData.address }}</li>
                 <li>{{ data.personalData.phone }}</li>
                 <li>{{ data.personalData.email }}</li>
@@ -35,9 +34,11 @@
 </template>
 
 <script setup lang="ts">
+import type { PropType } from 'vue';
+import type CvData from '@/types/CvData';
 defineProps({
     data: {
-        type: Object,
+        type: Object as PropType<CvData>,
         required: true
     }
 });
@@ -46,7 +47,7 @@ defineProps({
 
 <style>
 h1 {
-    @apply text-xl font-bold uppercase;
+    @apply text-xl font-semibold uppercase !important;
 }
 
 ul {
